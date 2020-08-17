@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Banner.module.css';
 import BackgroundSection from '../BGImage/BGImage';
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
 
 const Banner = () => {
     const data = useStaticQuery(
